@@ -1,0 +1,48 @@
+/* Custom gradient background for the navbar */
+.navbar.bg-gradient {
+  background: linear-gradient(45deg, #4b0d0d, #9a1e1e, #c75757);
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Link styling within the navbar */
+.navbar .nav-link {
+  font-size: 18px;
+  color: #f0e1e1 !important; /* Light color to contrast with dark background */
+  padding: 15px;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Hover effect for navbar links */
+.navbar .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+  border-radius: 5px;
+  color: #fff !important; /* Keep text white on hover */
+}
+
+/* Dropdown menu styling */
+.navbar .dropdown-menu {
+  background-color: #5c2323; /* Darker shade of maroon for dropdown */
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Dropdown item styling */
+.navbar .dropdown-item {
+  color: #f0e1e1 !important; /* Light color for dropdown items */
+}
+
+/* Dropdown item hover effect */
+.navbar .dropdown-item:hover {
+  background-color: #7a3535; /* Slightly lighter shade for hover */
+  color: #fff !important; /* Keeps text white on hover */
+}
+
+/* Style for the mobile navbar toggle button */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("https://cdn.iconscout.com/icon/free/png-256/menu-2052832-1725665.png");
+}

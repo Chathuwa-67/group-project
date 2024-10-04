@@ -1,0 +1,66 @@
+/* Input and Textarea Styles */
+input,
+textarea {
+  width: 40%;
+  border: 2px solid gray;
+  padding: 10px; /* Increased padding for better user experience */
+  border-radius: 5px; /* Smooth rounded edges */
+  background-color: #f8f9fa; /* Light background for inputs */
+  transition: all 0.3s ease-in-out;
+  font-size: 16px;
+}
+
+/* Focus effect for inputs and textareas */
+input:focus,
+textarea:focus {
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+/* Button Styles */
+button {
+  width: 20%;
+  color: white;
+  font-size: larger;
+  padding: 10px;
+  background: linear-gradient(
+    to right,
+    #ff7e5f,
+    #feb47b
+  ); /* Gradient background for button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect for button */
+button:hover {
+  background: linear-gradient(
+    to right,
+    #feb47b,
+    #ff7e5f
+  ); /* Reverse gradient on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
+
+/* Label Styles */
+label {
+  font-size: 18px; /* Slightly larger for readability */
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px; /* Space between label and input */
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  input,
+  textarea {
+    width: 90%; /* Make inputs full width on smaller screens */
+  }
+
+  button {
+    width: 40%; /* Buttons wider on smaller screens */
+  }
+}
