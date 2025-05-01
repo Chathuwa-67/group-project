@@ -8,6 +8,8 @@
 ## 📌 Project Overview
 This project is a **Student Result Management System** developed using PHP, MySQL, HTML, CSS, and JavaScript. It allows administrators to manage student details, subjects, and results, while students can view their published results online.
 
+![Project Screenshot](Screenshot%20(1165).png)
+
 ## 🔥 Key Features
 - **Admin Dashboard** with full control over student records 🏫
 - **Student Login** to check results securely 🎓
@@ -32,4 +34,3 @@ This project is a **Student Result Management System** developed using PHP, MySQ
 - Successfully deployed and tested with real student data.
 
 _Thank you for checking out my project! Looking forward to more exciting developments._ 😊
-
